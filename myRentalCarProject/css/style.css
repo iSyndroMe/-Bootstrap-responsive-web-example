@@ -1,0 +1,328 @@
+﻿html, body {
+    background: #34495e;
+    font-family: 'lato', sans-serif;
+    font-size: 20px;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+}
+
+#wrap {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+    width: 90%;
+}
+
+#mainNav{
+    width: 100% !important;
+    background: #333;
+	color: #eee;
+	font-size: 15px;
+	padding: 20px;
+}
+
+.bgBlack{
+    background: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'abel', sans-serif;
+    color: #FFFFCC;
+}
+
+p {
+    color: #FFFFCC;
+}
+
+.modal-content {
+    background: #333;
+}
+
+.text-darkSide {
+    color: #0a0909;
+}
+
+.hide-me{
+    display:none;
+}
+
+.fadein {
+    position: relative;
+    width: 220px;
+    height: 332px;
+}
+
+    .fadein img {
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+#features {
+    text-align: center;
+}
+
+    #features img {
+        margin: 0 0 20px;
+    }
+
+
+
+#myCarousel {
+    margin-top: 100px;
+}
+
+#myCanvas{
+    position:relative;
+    left:-30px;
+    top:-37px;
+}
+
+.carousel-caption {
+    font-size: 24px;
+}
+
+    .carousel-caption h4 {
+        font-size: 32px;
+    }
+
+.carousel-inner > .item > img {
+    height: 550px;
+    width: 100%;
+}
+
+#myModal h4 {
+    color: #33CC33;
+}
+
+#userList{
+    margin-right:20px;
+}
+
+ul.unstyled {
+    list-style: none;
+    padding: 0;
+}
+
+.intro-block {
+    background: url(../images/backround-ornage.jpg) repeat;
+    padding: 20px;
+    margin-top: 15px;
+}
+
+a:hover, nav a:active, .active a:link .active a:visited {
+    color: #e1b03c !important;
+    background:#121111 !important;
+    text-shadow: none;
+     border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+}
+
+nav a:link, nav a:visited {
+    color: #efeaea;
+     border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+}
+
+
+.jumbotron-midnight {
+    background: #34495e;
+    color: #83ea8e;
+    margin: 0;
+}
+
+#map_canvas {
+    height: 300px;
+    width: 100%;
+    margin: 10px;
+    padding: 0px 3px;
+}
+
+#directionsPanel {
+    background: #f5eded;
+    overflow-y: scroll;
+    height: 250px;
+    width: 100%;
+    margin-top: 15px;
+    display: none;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+#showPrice {
+    display: none;
+    height: 190px;
+    width: 100%;
+    padding: 5px;
+    background: #0d0d0d;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+#ordCarData{
+    display:none;
+    width:100%;
+    height: 170px;
+    background: #0d0d0d;
+     border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+
+}
+
+.autoLink{
+    display:none;
+    position:relative;
+}
+
+.text-awesome{
+    color: #80cb88;
+	font-size: 17px;
+	padding: 20px;
+    margin:10px;
+}
+
+.showDirectionsPanel{
+    padding:2px 3px;
+    margin:5px;
+    font-size:15px;
+    color:#cea33f;
+}
+
+#mainFtr {
+    width: 100% !important;
+    background: #333;
+	color: #eee;
+	font-size: 11px;
+	padding: 20px;
+}
+#mainFtr a{
+    color:#83ea8e;
+    text-decoration: none;
+}
+/* #Tablet (Portrait)
+================================================== */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    #map_canvas {
+        height: 250px;
+        width: 300px;
+    }
+
+    .fadein img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 300px;
+        height: 250px;
+    }
+
+    #showPrice {
+        display: none;
+        height: 190px;
+        width: 300px;
+        padding: 5px;
+        background: #0d0d0d;
+        border-radius: 3px;
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+    }
+}
+
+/*  #Mobile (Portrait)
+================================================== */
+@media only screen and (max-width: 480px) {
+    #map_canvas {
+        margin-top:70px;
+        height: 300px;
+        width: 220px;
+    }
+
+    .fadein img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 220px;
+        height: 250px;
+    }
+
+    #showPrice {
+        display: none;
+        height: 280px;
+        width: 220px;
+        padding: 5px;
+        margin:auto;
+        background: #0d0d0d;
+        border-radius: 3px;
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+    }
+
+   #ordCarData{
+    display:none;
+    width:220px;
+    height: 220px;
+    margin:10px;
+    background: #0d0d0d;
+     border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+
+}
+   #directionsPanel {
+    background: #f5eded;
+    overflow-y: scroll;
+    height: 250px;
+    width: 220px;
+    margin-top: 15px;
+    display: none;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+   #myCanvas{
+    position:relative;
+    left:-70px;
+    top:-65px;
+}
+
+.autoLink{
+    width:250px;
+    display:none;
+}
+
+}
+
+/* #Mobile (Landscape)
+================================================== */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    #map_canvas {
+        height: 300px;
+        width: 500px;
+    }
+
+    .fadein img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 420px;
+        height: 250px;
+    }
+
+    #showPrice {
+        display: none;
+        height: 210px;
+        width: 100%;
+        padding: 5px;
+        background: #0d0d0d;
+        border-radius: 3px;
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+    }
+
+}

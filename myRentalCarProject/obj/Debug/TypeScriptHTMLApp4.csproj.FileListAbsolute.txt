@@ -1,0 +1,11 @@
+z:\users\admin\documents\visual studio 2013\Projects\TypeScriptHTMLApp4\TypeScriptHTMLApp4\bin\TypeScriptHTMLApp4.dll.config
+z:\users\admin\documents\visual studio 2013\Projects\TypeScriptHTMLApp4\TypeScriptHTMLApp4\bin\TypeScriptHTMLApp4.dll
+z:\users\admin\documents\visual studio 2013\Projects\TypeScriptHTMLApp4\TypeScriptHTMLApp4\bin\TypeScriptHTMLApp4.pdb
+z:\users\admin\documents\visual studio 2013\Projects\TypeScriptHTMLApp4\TypeScriptHTMLApp4\obj\Debug\TypeScriptHTMLApp4.csprojResolveAssemblyReference.cache
+z:\users\admin\documents\visual studio 2013\Projects\TypeScriptHTMLApp4\TypeScriptHTMLApp4\obj\Debug\TypeScriptHTMLApp4.dll
+z:\users\admin\documents\visual studio 2013\Projects\TypeScriptHTMLApp4\TypeScriptHTMLApp4\obj\Debug\TypeScriptHTMLApp4.pdb
+G:\TypeScriptHTMLApp4\TypeScriptHTMLApp4\bin\TypeScriptHTMLApp4.dll
+G:\TypeScriptHTMLApp4\TypeScriptHTMLApp4\bin\TypeScriptHTMLApp4.pdb
+G:\TypeScriptHTMLApp4\TypeScriptHTMLApp4\obj\Debug\TypeScriptHTMLApp4.csprojResolveAssemblyReference.cache
+G:\TypeScriptHTMLApp4\TypeScriptHTMLApp4\obj\Debug\TypeScriptHTMLApp4.dll
+G:\TypeScriptHTMLApp4\TypeScriptHTMLApp4\obj\Debug\TypeScriptHTMLApp4.pdb
