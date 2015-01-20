@@ -1,8 +1,8 @@
-﻿//'use strict'; my map dosent work with this why...?
+//'use strict'; 
 //var ERROR = 'ERROR';
 
 /********************************
-       Modernizer Test.....dosnet work well....
+       Modernizer Test.....
 *********************************/
 /*
 if (!Modernizr.canvas) {
